@@ -13,7 +13,7 @@ export default class Users extends Component{
                     <td>{idx+1}</td>
                     <td><input className="inpField form-control" type="text" ref={(val) => {this.uname = val}} required defaultValue={user.name}/></td>
                     <td><input className="inpField form-control" type="text" ref={(val) => {this.uaddress = val}} required defaultValue={user.address}/></td>
-                    <td><input className="form-control" type="text" ref={(val) => {this.uphone = val}} required defaultValue={user.phone}/></td>
+                    <td><input className="inpField form-control" type="number" ref={(val) => {this.uphone = val}} required defaultValue={user.phone}/></td>
                     <td><button className="btn btnUp" onClick={this.handleUpdate} ref={() => {this.idxNum = idx}}>Update <i className="fa fa-check-square-o" aria-hidden="true"></i></button> | <button className="btn btnCnl btn-secondary" onClick={() => pressCancelBtn(idx)}>Cancel <i className="fa fa-ban" aria-hidden="true"></i></button></td>
                     
                 </tr> 

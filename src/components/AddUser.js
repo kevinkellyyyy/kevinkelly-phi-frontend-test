@@ -31,13 +31,13 @@ export default class AddUser extends Component{
                     <form onSubmit={this.handleSubmit}>
                         <div className="formRes form-row">
                             <div className="col">
-                                <input className="form-control" type="text" name="name" autoComplete="off" placeholder="Enter Name" onChange={ this.updateState}  required />
+                                <input className="inpField form-control" type="text" name="name" autoComplete="off" placeholder="Enter Name" onChange={ this.updateState}  required />
                             </div>
                             <div className="col">
-                                <input className="form-control" type="text" name="address" autoComplete="off" placeholder="Enter Address" onChange={ this.updateState }  required />
+                                <input className="inpField form-control" type="text" name="address" autoComplete="off" placeholder="Enter Address" onChange={ this.updateState }  required />
                             </div>
                             <div className="col">
-                                <input className="form-control" type="number" name="phone" autoComplete="off" placeholder="Enter Phone Number" onChange={ this.updateState }  required />
+                                <input className="inpField form-control" type="number" name="phone" autoComplete="off" placeholder="Enter Phone Number" onChange={ this.updateState }  required />
                             </div>
                             <div className="col">
                                 <button type="submit" className="btn btnAdd">Add New <i className="fa fa-plus-square-o" aria-hidden="true"></i></button>
