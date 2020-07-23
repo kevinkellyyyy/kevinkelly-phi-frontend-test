@@ -10,6 +10,22 @@ h1{
     font-weight: 400;
 }
 
+.App-header {
+    width: 100%;
+    min-height: 100vh;
+    color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    overflow: hidden;
+    background: url(../image/bg1.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
 .btnAdd{
     width: 100%;
     margin-top: -8.5px;
@@ -88,6 +104,10 @@ h1{
     color: #495057;    
 }
 
+.jumbotron{
+    margin-top: 20px;
+}
+
 .jumbotron, .table, .card{
     box-shadow: 4px 6px 12px black;
 }
@@ -108,7 +128,7 @@ h1{
     }
     
     tr { 
-        padding-bottom: 4px;
+        padding-bottom: 3px;
         border: 0px solid #ccc;
     }
 	
@@ -118,8 +138,8 @@ h1{
         padding-left: 50%; 
         text-align: right;
         padding: 0px !important;
-        border-bottom: 0.5px #ccc !important;
-        margin-bottom: 2px;
+        border-bottom: px #ccc !important;
+        margin-bottom: 0px;
 	}
 	
 	td:before { 
@@ -181,7 +201,7 @@ h1{
     }
 
     .btnEdit, .btnDel, .btnUp, .btnCnl {
-        transform: scale(0.8);
+        transform: scale(0.7);
     }
 
     .inpField{
