@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/kevinkelly-phi-frontend-test/static/css/main.fa288a90.chunk.css",
+    "main.js": "/kevinkelly-phi-frontend-test/static/js/main.3dbdb3a5.chunk.js",
+    "main.js.map": "/kevinkelly-phi-frontend-test/static/js/main.3dbdb3a5.chunk.js.map",
+    "runtime-main.js": "/kevinkelly-phi-frontend-test/static/js/runtime-main.44bcec2a.js",
+    "runtime-main.js.map": "/kevinkelly-phi-frontend-test/static/js/runtime-main.44bcec2a.js.map",
+    "static/js/2.6ac0a75d.chunk.js": "/kevinkelly-phi-frontend-test/static/js/2.6ac0a75d.chunk.js",
+    "static/js/2.6ac0a75d.chunk.js.map": "/kevinkelly-phi-frontend-test/static/js/2.6ac0a75d.chunk.js.map",
+    "index.html": "/kevinkelly-phi-frontend-test/index.html",
+    "precache-manifest.855c9765ba6a64241998f48b0dd4d0ec.js": "/kevinkelly-phi-frontend-test/precache-manifest.855c9765ba6a64241998f48b0dd4d0ec.js",
+    "service-worker.js": "/kevinkelly-phi-frontend-test/service-worker.js",
+    "static/css/main.fa288a90.chunk.css.map": "/kevinkelly-phi-frontend-test/static/css/main.fa288a90.chunk.css.map",
+    "static/js/2.6ac0a75d.chunk.js.LICENSE.txt": "/kevinkelly-phi-frontend-test/static/js/2.6ac0a75d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/kevinkelly-phi-frontend-test/static/media/bg1.b53c6406.jpg",
+    "static/media/font-awesome.min.css": "/kevinkelly-phi-frontend-test/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/logo.svg": "/kevinkelly-phi-frontend-test/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44bcec2a.js",
+    "static/js/2.6ac0a75d.chunk.js",
+    "static/css/main.fa288a90.chunk.css",
+    "static/js/main.3dbdb3a5.chunk.js"
+  ]
+}
