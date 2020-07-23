@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: #495057;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.btnAdd{
+    width: 100%;
+    margin-top: -8.5px;
+    background-color: #3b8beb;
+    color: white;
+    border: 1px solid #366aaa;
+}
+
+.btnDel{
+    background-color: #B23850;
+    color: white;
+    border: 1px solid #c4324f;
+}
+
+
+.btnEdit{
+    background-color: #ddcc8e;
+    color: black;
+    border: 1px solid #ccb871;
+}
+
+.btnUp{
+    background-color: #75bb2f;
+    color: white;
+    border: 1px solid #5d9228;
+}
+
+.btnAdd:hover{
+    background-color: #2b6cbb;
+}
+
+.btnDel:hover{
+    background-color: #8a2a3d;
+}
+
+.btnEdit:hover{
+    background-color: #b8a871;
+    color: white;
+}
+
+.btnUp{
+    background-color: #5b9224;
+}
+
+.formRes{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.card{
+    margin-top: 30px;
+    border: none;
+}
+
+.card-header{
+    background-color: #e9ecef;
+}
+
+.card-header h2{
+    color: #495057;
+    font-weight: 700;
+    font-size: 95%;
+    margin-bottom: unset !important;
+}
+
+.card-body{
+    background-color: #454d55;
+}
+
+.foot{
+    padding-top: 20px;
+    bottom: 0;
+    text-align: center;
+    font-size: 70%;
+    color: #495057;    
+}
+
+.jumbotron, .table, .card{
+    box-shadow: 4px 6px 12px black;
+}
+
+@media only screen and (max-width: 800px){
+    h1{
+        font-size: 30px;
+    }
+
+    table, thead, tbody, th, td, tr { 
+		display: block; 
+    }
+    
+    thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+    }
+    
+    tr { 
+        padding-bottom: 4px;
+        border: 0px solid #ccc;
+    }
+	
+	td {
+        font-size: 90%;
+		position: relative;
+        padding-left: 50%; 
+        text-align: right;
+        padding: 0px !important;
+        border-bottom: 0.5px #ccc !important;
+        margin-bottom: 2px;
+	}
+	
+	td:before { 
+		position: absolute;
+		top: 0px;
+        left: 0px;
+        bottom: 0px;
+		width: 40%; 
+		padding-right: 10px; 
+        white-space: nowrap;
+	}
+    
+    .noData td:nth-of-type(1):before{
+        content: ""; 
+        background-color: transparent;
+    }
+
+    .noData h2{
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+	/*
+	Label the data
+	*/
+	td:nth-of-type(1):before, td:nth-of-type(2):before, td:nth-of-type(3):before, td:nth-of-type(4):before, td:nth-of-type(5):before { 
+        text-align: left; 
+        background-color: #E9ECEF;
+        color: #495057;
+        font-weight: 700;
+    }
+
+    td:nth-of-type(1):before {
+        content: "#No"; 
+    }
+
+	td:nth-of-type(2):before {
+        content: "Name"; 
+    }
+
+    td:nth-of-type(3):before {
+        content: "Email"; 
+    }
+
+	td:nth-of-type(4):before { 
+        content: "Phone Number"; 
+    }
+
+	td:nth-of-type(5):before { 
+        content: "Action";
+    }
+
+    input{
+        text-align: right;
+    }
+
+    .formRes input {
+        text-align: left;
+    }
+
+    .btnEdit, .btnDel, .btnUp, .btnCnl {
+        transform: scale(0.8);
+    }
+
+    .inpField{
+        background-color: #E9ECEF;
+    }
+
+    .formRes{
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .formRes div{
+        margin-bottom: 10px;
+    }
+
+    .btnAdd{
+        margin-top: 0px;
+    }
+}
